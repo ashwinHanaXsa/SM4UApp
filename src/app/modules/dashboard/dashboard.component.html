@@ -1,0 +1,482 @@
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <div class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <h1 class="m-0 text-dark">Meter Operations</h1>
+        </div><!-- /.col -->
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active">View</li>
+          </ol>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </div>
+  <!-- /.content-header -->
+  <section class="content">
+    <!-- <h5 class="mt-4 mb-2">Info Box With <code>bg-gradient-*</code></h5> -->
+    <div class="row">
+      <div class="col-md-2 col-sm-4 col-12">
+        <div class="info-box bg-olive">
+          <span class="info-box-icon"><i class="fas fa-chart-pie"></i></span>
+          <div class="info-box-content">
+            <span class="info-box-text">Total Meter Count</span>
+            <span class="info-box-number">41,410</span>
+
+          </div>
+          <!-- /.info-box-content -->
+        </div>
+
+        <!-- /.info-box -->
+      </div>
+      <div class="col-md-2 col-sm-4 col-12">
+        <div class="info-box bg-info">
+          <span class="info-box-icon"><i class="fas fa-tachometer-alt"></i></span>
+          <div class="info-box-content">
+            <span class="info-box-text">Active Meter Count</span>
+            <span class="info-box-number">42990</span>
+
+            <!-- <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div> -->
+            <!-- <span class="progress-description">
+                            70% Increase in 30 Days
+                        </span> -->
+          </div>
+          <!-- /.info-box-content -->
+        </div>
+
+        <!-- /.info-box -->
+      </div>
+      <!-- /.col -->
+      <div class="col-md-2 col-sm-4 col-12">
+        <div class="info-box bg-success">
+          <span class="info-box-icon"><i class="fa fa-users"></i></span>
+
+          <div class="info-box-content">
+            <span class="info-box-text">Active Customers</span>
+            <span class="info-box-number">45,000</span>
+
+            <!-- <div class="progress">
+                            <div class="progress-bar" style="width: 10%"></div>
+                        </div> -->
+            <!-- <span class="progress-description">
+                            10% Increase in 30 Days
+                        </span> -->
+          </div>
+          <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+      </div>
+      <!-- /.col -->
+      <div class="col-md-2 col-sm-4 col-12">
+        <div class="info-box bg-warning">
+          <span class="info-box-icon"><i class="fa fa-random"></i></span>
+
+          <div class="info-box-content">
+            <span class="info-box-text">Interval Read Rate</span>
+            <span class="info-box-number">99.08%</span>
+
+            <!-- <div class="progress">
+                            <div class="progress-bar" style="width: 20%"></div>
+                        </div> -->
+            <!-- <span class="progress-description">
+                            20% Increase in 30 Days
+                        </span> -->
+          </div>
+          <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+      </div>
+      <!-- /.col -->
+      <div class="col-md-2 col-sm-4 col-12">
+        <div class="info-box bg-danger">
+          <span class="info-box-icon"><i class="fa fa-book"></i></span>
+
+          <div class="info-box-content">
+            <span class="info-box-text">Register Read Rate</span>
+            <span class="info-box-number">97.50%</span>
+          </div>
+          <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+      </div>
+      <!-- /.col -->
+      <div class="col-md-2 col-sm-4 col-12">
+        <div class="info-box bg-teal">
+          <span class="info-box-icon"><i class="fa fa-copy"></i></span>
+
+          <div class="info-box-content">
+            <span class="info-box-text">Active Service Orders</span>
+            <span class="info-box-number">90</span>
+          </div>
+          <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+      </div>
+    </div>
+    <!-- /.row -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <!-- <h5 class="card-title">Residential vs Commercial</h5> -->
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+              <div class="btn-group">
+                <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                  <i class="fas fa-wrench"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" role="menu">
+                  <a href="#" class="dropdown-item">Action</a>
+                  <a href="#" class="dropdown-item">Another action</a>
+                  <a href="#" class="dropdown-item">Something else here</a>
+                  <a class="dropdown-divider"></a>
+                  <a href="#" class="dropdown-item">Separated link</a>
+                </div>
+              </div>
+              <button type="button" class="btn btn-tool" data-card-widget="remove">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tab-content p-0">
+                  <app-widget-columnline></app-widget-columnline>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-md-6">
+                <div class="tab-content p-0">
+                  <app-widget-column></app-widget-column>
+                </div>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- ./card-body -->
+          <div class="card-footer">
+            <!-- <div class="row"> -->
+            <!-- <div class="col-sm-3 col-6">
+                <div class="description-block border-right">
+                  <span class="description-percentage text-success"><i class="fas fa-caret-up"></i>
+                    17%</span>
+                  <h5 class="description-header">$35,210.43</h5>
+                  <span class="description-text">TOTAL REVENUE</span>
+                </div>
+            
+              </div> -->
+            <!-- /.col -->
+            <!-- <div class="col-sm-3 col-6">
+                <div class="description-block border-right">
+                  <span class="description-percentage text-warning"><i class="fas fa-caret-left"></i>
+                    0%</span>
+                  <h5 class="description-header">$10,390.90</h5>
+                  <span class="description-text">TOTAL COST</span>
+                </div>
+              </div> -->
+            <!-- /.col -->
+            <!-- <div class="col-sm-3 col-6">
+                <div class="description-block border-right">
+                  <span class="description-percentage text-success"><i class="fas fa-caret-up"></i>
+                    20%</span>
+                  <h5 class="description-header">$24,813.53</h5>
+                  <span class="description-text">TOTAL PROFIT</span>
+                </div>
+              </div> -->
+            <!-- /.col -->
+            <!-- <div class="col-sm-3 col-6">
+                <div class="description-block">
+                  <span class="description-percentage text-danger"><i class="fas fa-caret-down"></i>
+                    18%</span>
+                  <h5 class="description-header">1200</h5>
+                  <span class="description-text">MDMS Connectivity Issues</span>
+                </div>
+              </div> -->
+            <!-- </div> -->
+            <!-- /.row -->
+          </div>
+          <!-- /.card-footer -->
+        </div>
+        <!-- /.card -->
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+    <!-- <div class="row">
+  <div class="col-md-12">
+    <app-widget-line></app-widget-line>
+  </div>
+</div> -->
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Service Orders</h3>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body table-responsive p-0" style="height: 300px;">
+        <table class="table table-head-fixed text-nowrap">
+          <thead>
+            <tr>
+              <th>Meter ID</th>
+              <th>SD</th>
+              <th>Account Number</th>
+              <th>Approved & Accepted</th>
+              <th>Service Area</th>
+              <th>Last Read Date</th>
+              <th>Reads Missed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>16/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995432</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>N</td>
+              <td>AR</td>
+              <td>12/10/2020</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>995413</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>02/15/2020</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>996531</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>10/10/2020</td>
+              <td>110</td>
+            </tr>
+            <tr>
+              <td>998755</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>N</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>998954</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995412</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>997630</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>94330</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>995830</td>
+              <td>7954875</td>
+              <td>100137648</td>
+              <td>Y</td>
+              <td>AR</td>
+              <td>06/17/2020</td>
+              <td>8</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Meter ID</th>
+              <th>SD</th>
+              <th>Account Number</th>
+              <th>Approved & Accepted</th>
+              <th>Service Area</th>
+              <th>Last Read Date</th>
+              <th>Reads Missed</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+  </section>
