@@ -10,6 +10,7 @@ import { LineComponent } from './widgets/line/line.component';
 import { ColumnlineComponent } from './widgets/columnline/columnline.component';
 import { ColumnComponent } from './widgets/column/column.component';
 import { BulletsComponent } from './widgets/bullets/bullets.component';
+import { BarComponent } from './widgets/bar/bar.component';
 
 
 
@@ -22,7 +23,8 @@ import { BulletsComponent } from './widgets/bullets/bullets.component';
     LineComponent,
     ColumnlineComponent,
     ColumnComponent,
-    BulletsComponent
+    BulletsComponent,
+    BarComponent
   ],
   imports: [
     CommonModule,
@@ -37,7 +39,8 @@ import { BulletsComponent } from './widgets/bullets/bullets.component';
     LineComponent,
     ColumnlineComponent,
     ColumnComponent,
-    BulletsComponent
+    BulletsComponent,
+    BarComponent
   ]
 })
 export class SharedModule { }

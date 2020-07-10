@@ -1,118 +1,233 @@
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-dark">MDM DCE Meter Analysis</h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item active">Home</li>
-              <li class="breadcrumb-item"><a href="#">View</a></li>
-            </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
+  <!-- Content Header (Page header) -->
+  <div class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <h1 class="m-0 text-dark">Master Data Reconciliation</h1>
+        </div><!-- /.col -->
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item active">Home</li>
+            <li class="breadcrumb-item"><a href="#">View</a></li>
+          </ol>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </div>
+  <!-- /.content-header -->
+  <section class="content">
+    <!-- <h5 class="mt-4 mb-2">Info Box With <code>bg-gradient-*</code></h5> -->
+    <div class="row">
     </div>
-    <!-- /.content-header -->
-    <section class="content">
-      <!-- <h5 class="mt-4 mb-2">Info Box With <code>bg-gradient-*</code></h5> -->
-      <div class="row">
-      </div>
-      <!-- /.row -->
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card">
-            <div class="card-header">
-              <!-- <h5 class="card-title">Residential vs Commercial</h5> -->
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                  <i class="fas fa-minus"></i>
+    <!-- /.row -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <!-- <h5 class="card-title">Residential vs Commercial</h5> -->
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+              <div class="btn-group">
+                <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                  <i class="fas fa-wrench"></i>
                 </button>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
-                    <i class="fas fa-wrench"></i>
-                  </button>
-                  <div class="dropdown-menu dropdown-menu-right" role="menu">
-                    <a href="#" class="dropdown-item">Action</a>
-                    <a href="#" class="dropdown-item">Another action</a>
-                    <a href="#" class="dropdown-item">Something else here</a>
-                    <a class="dropdown-divider"></a>
-                    <a href="#" class="dropdown-item">Separated link</a>
-                  </div>
+                <div class="dropdown-menu dropdown-menu-right" role="menu">
+                  <a href="#" class="dropdown-item">Action</a>
+                  <a href="#" class="dropdown-item">Another action</a>
+                  <a href="#" class="dropdown-item">Something else here</a>
+                  <a class="dropdown-divider"></a>
+                  <a href="#" class="dropdown-item">Separated link</a>
                 </div>
-                <button type="button" class="btn btn-tool" data-card-widget="remove">
-                  <i class="fas fa-times"></i>
-                </button>
+              </div>
+              <button type="button" class="btn btn-tool" data-card-widget="remove">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <app-widget-bar></app-widget-bar>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">In DCE not in CIS</h3>
+                <div class="card-body table-responsive p-0" >
+                  <table class="table table-hover text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>Serial Number</th>
+                        <th>Installation Date</th>
+                        <th>Hardware Version</th>
+                        <th>Registered</th>
+                        <th>Is Authenticated</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>123789</td>
+                        <td>01/01/2017</td>
+                        <td></td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <td>152927</td>
+                        <td>01/01/2017</td>
+                        <td></td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <td>821512</td>
+                        <td>01/01/2017</td>
+                        <td></td>
+                        <td>Yes</td>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                        <td>139789</td>
+                        <td>01/01/2017</td>
+                        <td></td>
+                        <td>No</td>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <td>151107</td>
+                        <td>01/01/2017</td>
+                        <td></td>
+                        <td>Yes</td>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                        <td>921789</td>
+                        <td>01/01/2017</td>
+                        <td></td>
+                        <td>Yes</td>
+                        <td>No</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                </div>
+                </div>
               </div>
             </div>
-            <!-- /.card-header -->
-            <div class="card-body">
-              <div class="row">
-                    <app-widget-bullets></app-widget-bullets>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">In CIS not in DCE</h3>
+                <div class="card-body table-responsive p-0" >
+                  <table class="table table-hover text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>Meter Number</th>
+                        <th>meter Set Date</th>
+                        <th>Meter Type Code</th>
+                        <th>Service Center</th>
+                        <th>Account Number</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>876213</td>
+                        <td>12/06/2020</td>
+                        <td>130</td>
+                        <td>Gregory Park</td>
+                        <td>10051245123</td>
+                      </tr>
+                      <tr>
+                        <td>821526</td>
+                        <td>12/06/2020</td>
+                        <td>130</td>
+                        <td>Gregory Park</td>
+                        <td>10051244157</td>
+                      </tr>
+                      <tr>
+                        <td>815235</td>
+                        <td>12/06/2020</td>
+                        <td>130</td>
+                        <td>Harrison</td>
+                        <td>10051241672</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <!-- /.col -->
-              <!-- /.row -->
+                </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">In MDM not in CIS</h3>
+                <div class="card-body table-responsive p-0" >
+                  <table class="table table-hover text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>Meter Number</th>
+                        <th>Service ID</th>
+                        <th>Power Status</th>
+                        <th>Meter Status</th>
+                        <th>Grid Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>815256</td>
+                        <td>10008152512561200</td>
+                        <td>Active</td>
+                        <td>Active</td>
+                        <td>Active</td>
+                      </tr>
+                      <tr>
+                        <td>881252</td>
+                        <td>10008152518251100</td>
+                        <td>Active</td>
+                        <td>Active</td>
+                        <td>Active</td>
+                      </tr>
+                      <tr>
+                        <td>891623</td>
+                        <td>10008152515126300</td>
+                        <td>Active</td>
+                        <td>Active</td>
+                        <td>Inactive</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                </div>
+                </div>
+              </div>
             </div>
-            <!-- ./card-body -->
-            <div class="card-footer">
-              <!-- <div class="row"> -->
-              <!-- <div class="col-sm-3 col-6">
-                  <div class="description-block border-right">
-                    <span class="description-percentage text-success"><i class="fas fa-caret-up"></i>
-                      17%</span>
-                    <h5 class="description-header">$35,210.43</h5>
-                    <span class="description-text">TOTAL REVENUE</span>
-                  </div>
-              
-                </div> -->
-              <!-- /.col -->
-              <!-- <div class="col-sm-3 col-6">
-                  <div class="description-block border-right">
-                    <span class="description-percentage text-warning"><i class="fas fa-caret-left"></i>
-                      0%</span>
-                    <h5 class="description-header">$10,390.90</h5>
-                    <span class="description-text">TOTAL COST</span>
-                  </div>
-                </div> -->
-              <!-- /.col -->
-              <!-- <div class="col-sm-3 col-6">
-                  <div class="description-block border-right">
-                    <span class="description-percentage text-success"><i class="fas fa-caret-up"></i>
-                      20%</span>
-                    <h5 class="description-header">$24,813.53</h5>
-                    <span class="description-text">TOTAL PROFIT</span>
-                  </div>
-                </div> -->
-              <!-- /.col -->
-              <!-- <div class="col-sm-3 col-6">
-                  <div class="description-block">
-                    <span class="description-percentage text-danger"><i class="fas fa-caret-down"></i>
-                      18%</span>
-                    <h5 class="description-header">1200</h5>
-                    <span class="description-text">MDMS Connectivity Issues</span>
-                  </div>
-                </div> -->
-              <!-- </div> -->
-              <!-- /.row -->
-            </div>
-            <!-- /.card-footer -->
+            <!-- /.col -->
+            <!-- /.row -->
           </div>
-          <!-- /.card -->
+          <!-- ./card-body -->
+          <div class="card-footer">
+          </div>
+          <!-- /.card-footer -->
         </div>
-        <!-- /.col -->
+        <!-- /.card -->
       </div>
-      <!-- /.row -->
-      <!-- <div class="row">
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+    <!-- <div class="row">
   </div> -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title"></h3>
-        </div>
-        <!-- /.card-header -->
-        <!-- /.card-body -->
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title"></h3>
       </div>
-      <!-- /.card -->
-    </section>
+      <!-- /.card-header -->
+      <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+  </section>

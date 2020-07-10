@@ -73,6 +73,7 @@ export class ColumnComponent implements OnInit {
         shadow: true
     },
       series: [{
+        name: 'Aging',
         data: [19,14,10,3,2]
       }]
     },
