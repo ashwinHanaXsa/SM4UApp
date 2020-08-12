@@ -62,15 +62,15 @@ export class BarComponent implements OnInit {
             },
             series: [{
                 // color: 'rgba(165,170,217,1)',
-                name: 'In DCE but not in CIS',
-                data: [2500]
+                name: 'Missing from DCE',
+                data: [4000]
             },{
-                name: 'In CIS but not in DCE',
-                data: [4300]
+                name: 'Missing from MDM',
+                data: [5400]
              },
             { 
-                name: 'In MDM but not in CIS',
-                data: [3700]
+                name: 'Missing from DCE & MDM',
+                data: [4500]
              }
             ]
         },

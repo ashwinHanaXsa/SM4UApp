@@ -14,5 +14,10 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
     this.bigChart =  this.dashboardService.bigChart();
     this.line =  this.dashboardService.line();
-};
 }
+LinktoCity(order: string){        
+  window.open(order, "_blank");
+}
+
+}
+
